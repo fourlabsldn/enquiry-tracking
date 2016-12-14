@@ -1,0 +1,10 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './swiss-theme';
+
+body {
+    max-width: 600px !important;
+}
+
+h1 {
+    padding-bottom: 1em;
+}

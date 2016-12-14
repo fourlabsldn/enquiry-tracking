@@ -1,0 +1,27 @@
+{
+  "name": "enquiry-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.5.4",
+    "bootstrap": "^4.0.0-alpha.5",
+    "browser-sync": "^2.18.5",
+    "dep-linker": "^1.0.24",
+    "gulp-if": "^2.0.2",
+    "gulp-organiser": "^1.0.6",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^1.9.1",
+    "lodash": "^4.17.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.5"
+  }
+}

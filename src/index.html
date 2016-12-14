@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enquiry Logger</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="container">
+  <h1>Enquiry Logger</h1>
+
+  <form action="">
+    <div class="form-group">
+      <label for="companyName">Email address</label>
+      <input type="email" class="form-control" id="companyName" aria-describedby="compNameHelper" placeholder="Company Name">
+      <small id="compNameHelper" class="form-text text-muted">Name of the company that just called or made contact by other means</small>
+    </div>
+
+
+      Company name
+      How did you hear of us
+      Some classification of enquiry quality to asses whether the wanted target audience is being reached
+      Region
+  </form>
+
+  <script>
+    var hidden = document.createElement('input');
+    hidden.setAttribute('type', 'hidden');
+    hidden.setAttribute('name', 'date-time');
+    hidden.setAttribute('value', (new Date()).toString())
+    document.querySelector('form').appendChild(hidden);
+  </script>
+</body>
+</html>
