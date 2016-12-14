@@ -8,3 +8,12 @@ body {
 h1 {
     padding-bottom: 1em;
 }
+
+label {
+    display: block;
+}
+
+.fa-star,
+.fa-star-o {
+    color: orange;
+}

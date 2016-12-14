@@ -13,6 +13,7 @@
     "bootstrap": "^4.0.0-alpha.5",
     "browser-sync": "^2.18.5",
     "dep-linker": "^1.0.24",
+    "font-awesome": "^4.7.0",
     "gulp-if": "^2.0.2",
     "gulp-organiser": "^1.0.6",
     "gulp-postcss": "^6.2.0",

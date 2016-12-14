@@ -4,22 +4,78 @@
   <meta charset="UTF-8">
   <title>Enquiry Logger</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 <body class="container">
+  <img src="./logo.png" alt="" height="100" style="margin: 0 auto 3em; display: block">
   <h1>Enquiry Logger</h1>
 
   <form action="">
     <div class="form-group">
       <label for="companyName">Email address</label>
-      <input type="email" class="form-control" id="companyName" aria-describedby="compNameHelper" placeholder="Company Name">
+      <input type="text" class="form-control" id="companyName" aria-describedby="compNameHelper" placeholder="Company Name">
       <small id="compNameHelper" class="form-text text-muted">Name of the company that just called or made contact by other means</small>
     </div>
 
+    <div class="form-group">
+      <label for="howDidTheyHearAboutUs">How did they head about us?</label>
+      <textarea type="email" class="form-control" id="howDidTheyHearAboutUs" aria-describedby="howDidTheyHeadHelper"></textarea>
+      <small id="howDidTheyHeadHelper" class="form-text text-muted">Try to find out whether it is related to any recent ad campaign</small>
+    </div>
 
-      Company name
-      How did you hear of us
-      Some classification of enquiry quality to asses whether the wanted target audience is being reached
-      Region
+    <div class="form-group">
+      How relevant was this enquiry? <br>
+      <label>
+        <input type="radio" name="howRelevant" value="1"/>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+        <i class="fa fa-star-o"></i>
+        <i class="fa fa-star-o"></i>
+        <i class="fa fa-star-o"></i>
+      </label>
+      <label>
+        <input type="radio" name="howRelevant" value="1"/>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+        <i class="fa fa-star-o"></i>
+        <i class="fa fa-star-o"></i>
+      </label>
+      <label>
+        <input type="radio" name="howRelevant" value="1"/>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+        <i class="fa fa-star-o"></i>
+      </label>
+      <label>
+        <input type="radio" name="howRelevant" value="1"/>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </label>
+      <label>
+        <input type="radio" name="howRelevant" value="1"/>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </label>
+      <small id="howRelevantHelper" class="form-text text-muted">How much do they sound like our ideal client?</small>
+    </div>
+
+    <div class="form-group">
+      <label for="Location">Where are they based?</label>
+      <input type="email" class="form-control" id="Location" aria-describedby="locationHelper" placeholder="Location">
+      <small id="locationHelper" class="form-text text-muted">Try to find out whether it is related to any recent ad campaign</small>
+    </div>
+
+
+    <button class="btn btn-secondary">Submit</button>
   </form>
 
   <script>

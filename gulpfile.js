@@ -15,7 +15,7 @@ organiser.registerAll('./gulp-tasks', {
     dest: './dist/dependencies',
   },
   'copy-static': {
-    src: path.join(src, '*.html'),
+    src: [path.join(src, '*.png'), path.join(src, '*.html')],
     dest,
   },
   'browser-sync': {
